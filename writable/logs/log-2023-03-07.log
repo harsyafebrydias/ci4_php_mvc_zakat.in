@@ -1,0 +1,264 @@
+ERROR - 2023-03-07 07:42:13 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\Users\lenovo\Downloads\codeigniter4\app\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php(36): App\Models\MData->saveData(Array)
+#6 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(934): App\Controllers\Data->saveData()
+#7 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lenovo\Downloads\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lenovo\Downloads\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#11 {main}
+CRITICAL - 2023-03-07 07:42:14 --> Column 'nama' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `fakultas`, `alamat`) VALUES (:nim:, :nama:, :fakultas:, :alamat:)', [...], false)
+ 2 APPPATH\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Data.php(36): App\Models\MData->saveData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 07:43:32 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\Users\lenovo\Downloads\codeigniter4\app\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php(36): App\Models\MData->saveData(Array)
+#6 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(934): App\Controllers\Data->saveData()
+#7 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lenovo\Downloads\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lenovo\Downloads\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#11 {main}
+CRITICAL - 2023-03-07 07:43:32 --> Column 'nama' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `fakultas`, `alamat`) VALUES (:nim:, :nama:, :fakultas:, :alamat:)', [...], false)
+ 2 APPPATH\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Data.php(36): App\Models\MData->saveData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 07:43:37 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\Users\lenovo\Downloads\codeigniter4\app\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php(36): App\Models\MData->saveData(Array)
+#6 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(934): App\Controllers\Data->saveData()
+#7 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lenovo\Downloads\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lenovo\Downloads\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#11 {main}
+CRITICAL - 2023-03-07 07:43:38 --> Column 'nama' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `fakultas`, `alamat`) VALUES (:nim:, :nama:, :fakultas:, :alamat:)', [...], false)
+ 2 APPPATH\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Data.php(36): App\Models\MData->saveData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 07:44:41 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\Users\lenovo\Downloads\codeigniter4\app\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php(36): App\Models\MData->saveData(Array)
+#6 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(934): App\Controllers\Data->saveData()
+#7 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lenovo\Downloads\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lenovo\Downloads\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#11 {main}
+CRITICAL - 2023-03-07 07:44:41 --> Column 'nama' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `fakultas`, `alamat`) VALUES (:nim:, :nama:, :fakultas:, :alamat:)', [...], false)
+ 2 APPPATH\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Data.php(36): App\Models\MData->saveData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 07:45:33 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\Users\lenovo\Downloads\codeigniter4\app\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php(36): App\Models\MData->saveData(Array)
+#6 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(934): App\Controllers\Data->saveData()
+#7 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lenovo\Downloads\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lenovo\Downloads\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#11 {main}
+CRITICAL - 2023-03-07 07:45:33 --> Column 'nama' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `fakultas`, `alamat`) VALUES (:nim:, :nama:, :fakultas:, :alamat:)', [...], false)
+ 2 APPPATH\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Data.php(36): App\Models\MData->saveData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 07:46:01 --> mysqli_sql_exception: Duplicate entry '12001007' for key 'PRIMARY' in C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\Users\lenovo\Downloads\codeigniter4\app\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php(36): App\Models\MData->saveData(Array)
+#6 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(934): App\Controllers\Data->saveData()
+#7 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lenovo\Downloads\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lenovo\Downloads\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#11 {main}
+CRITICAL - 2023-03-07 07:46:01 --> Duplicate entry '12001007' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `fakultas`, `alamat`) VALUES (:nim:, :nama:, :fakultas:, :alamat:)', [...], false)
+ 2 APPPATH\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Data.php(36): App\Models\MData->saveData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 08:11:37 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php on line 41
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Data.php(41): view('V_editData', '12001001')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('12001001')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 08:15:29 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php on line 41
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Data.php(41): view('V_editData', '12001001')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('12001001')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 08:24:59 --> Undefined variable $id
+in APPPATH\Models\MData.php on line 21.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\MData.php', 21)
+ 2 APPPATH\Controllers\Data.php(41): App\Models\MData->getSelectData('12001001')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('12001001')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 08:26:20 --> Undefined variable $data
+in APPPATH\Views\V_editData.php on line 12.
+ 1 APPPATH\Views\V_editData.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\V_editData.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\V_editData.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('V_editData', [], true)
+ 5 APPPATH\Controllers\Data.php(45): view('V_editData', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('12001001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-07 08:58:08 --> mysqli_sql_exception: Duplicate entry '12001011' for key 'PRIMARY' in C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\Users\lenovo\Downloads\codeigniter4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\Users\lenovo\Downloads\codeigniter4\app\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\lenovo\Downloads\codeigniter4\app\Controllers\Data.php(36): App\Models\MData->saveData(Array)
+#6 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(934): App\Controllers\Data->saveData()
+#7 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\lenovo\Downloads\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\lenovo\Downloads\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#11 {main}
+CRITICAL - 2023-03-07 08:58:08 --> Duplicate entry '12001011' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `fakultas`, `alamat`) VALUES (:nim:, :nama:, :fakultas:, :alamat:)', [...], false)
+ 2 APPPATH\Models\MData.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Data.php(36): App\Models\MData->saveData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 09:04:14 --> Too few arguments to function App\Controllers\Data::saveEditData(), 0 passed in C:\Users\lenovo\Downloads\codeigniter4\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Data.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->saveEditData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 09:17:00 --> The route for "data" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('data')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Data.php(62): redirect('data')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->hapusData('12001008')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 09:18:35 --> The route for "data" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('data')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Data.php(62): redirect('data')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->hapusData('12001011')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 09:19:21 --> The route for "data" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('data')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Data.php(62): redirect('data')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->hapusData('12001001')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 09:20:04 --> Undefined variable $row
+in APPPATH\Views\V_editData.php on line 15.
+ 1 APPPATH\Views\V_editData.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\V_editData.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\V_editData.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('V_editData', [], true)
+ 5 APPPATH\Controllers\Data.php(45): view('V_editData', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('12001007')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-07 09:21:02 --> The route for "Data" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('Data')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Data.php(62): redirect('Data')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->hapusData('12001008')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

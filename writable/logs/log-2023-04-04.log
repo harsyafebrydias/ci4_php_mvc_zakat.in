@@ -1,0 +1,315 @@
+INFO - 2023-04-04 03:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:12:45 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:12:45 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakatmal where nik = js')
+ 2 APPPATH\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:12:46 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:12:46 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakatmal where nik = js')
+ 2 APPPATH\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:13:22 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\Data.php(54): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:13:22 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakat where nik = js')
+ 2 APPPATH\Controllers\Data.php(54): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:13:23 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\Data.php(54): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:13:23 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakat where nik = js')
+ 2 APPPATH\Controllers\Data.php(54): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:14:19 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\Data.php(54): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:14:19 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakat where nik = js')
+ 2 APPPATH\Controllers\Data.php(54): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:14:19 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\Data.php(54): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:14:19 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakat where nik = js')
+ 2 APPPATH\Controllers\Data.php(54): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:14:40 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:14:40 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakatmal where nik = js')
+ 2 APPPATH\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:14:40 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:14:40 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakatmal where nik = js')
+ 2 APPPATH\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:15:08 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:15:08 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakatmal where nik = js')
+ 2 APPPATH\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-04 03:15:08 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from t...', 0)
+#1 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\app\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('js')
+#5 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+#7 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\SALINAN ASLI SUPER SEMAR\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-04-04 03:15:08 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MDataMal.php(21): CodeIgniter\Database\BaseConnection->query('select * from tbl_zakatmal where nik = js')
+ 2 APPPATH\Controllers\DataMal.php(54): App\Models\MDataMal->getSelectDataMal('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataMal->editDataMal('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMal))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-04-04 03:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 03:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 04:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-04 05:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,1221 @@
+INFO - 2023-03-17 04:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 04:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-17 07:21:45 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:21:46 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:21:46 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:21:46 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:29:16 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:29:16 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:29:16 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:29:16 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:29:59 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:29:59 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:29:59 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:29:59 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:30:26 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:30:26 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:30:27 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:30:27 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:35:35 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:35:35 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:35:35 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:35:35 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:38:15 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:38:15 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:38:15 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:38:15 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:38:30 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:38:30 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:38:30 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:38:30 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-17 07:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-17 07:40:22 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:40:22 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:40:23 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:40:23 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:40:44 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:40:44 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:40:44 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:40:44 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:41:29 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:41:29 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:41:30 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:41:30 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:41:58 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:41:58 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:41:58 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:41:58 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:42:08 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:42:08 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:42:08 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:42:08 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:42:18 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:42:18 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:42:18 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:42:18 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:44:21 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:44:21 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:44:21 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:44:21 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:45:03 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:45:03 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:45:03 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:45:03 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:45:28 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:45:28 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:45:29 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:45:29 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:47:04 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:47:04 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:47:04 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:47:04 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:47:30 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:47:30 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:47:30 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:47:30 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:49:43 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:49:43 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:49:43 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:49:43 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:50:19 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:50:19 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 07:50:19 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 07:50:19 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-17 07:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 07:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 08:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 08:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 08:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 08:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 08:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 08:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-17 08:53:11 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 08:53:11 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 08:53:12 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 08:53:12 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:34:17 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:34:17 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:34:18 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:34:18 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:35:37 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:35:37 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:35:37 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:35:37 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:36:41 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:36:41 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:36:42 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:36:42 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:37:55 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:37:55 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:37:56 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:37:56 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:40:56 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:40:56 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:40:56 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:40:56 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:42:14 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:42:14 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-17 09:42:14 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-17 09:42:14 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

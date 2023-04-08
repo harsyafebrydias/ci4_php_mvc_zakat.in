@@ -1,0 +1,176 @@
+INFO - 2023-03-15 05:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 05:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-15 05:34:38 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('C:\\Users\\lenovo\\AppData\\Local\\Temp\\ca_2D1C.tmp', 34.01574803149606, 395.5142519685039, 171.00000000000003, 165.75)
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\lenovo\\AppData\\Local\\Temp\\ca_2D1C.tmp', 34.01574803149606, 34.01574803149606, 171.00000000000003, 165.75, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\Report.php(36): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->tampilPdf()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 05:35:00 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+【Previous Exception】
+Exception
+The PHP GD extension is required, but is not installed.
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('C:\\Users\\lenovo...', 34.015748031496, 395.5142519685, 171, 165.75)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\lenovo...', 34.015748031496, 34.015748031496, 171, 165.75, 'normal')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Report.php(36): Dompdf\Dompdf->render()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Report->tampilPdf()
+#10 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#11 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#14 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-15 06:05:21 --> Dompdf\Image\Cache::resolve_url(): Argument #5 ($dompdf) must be of type Dompdf\Dompdf, Dompdf\Options given, called in C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\FrameDecorator\Image.php on line 58
+in VENDORPATH\dompdf\dompdf\src\Image\Cache.php on line 60.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\Image.php(58): Dompdf\Image\Cache::resolve_url('APPPATH\\Views\\041086.png', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', Object(Dompdf\Options))
+ 2 VENDORPATH\dompdf\dompdf\src\Frame\Factory.php(198): Dompdf\FrameDecorator\Image->__construct(Object(Dompdf\Frame), Object(Dompdf\Dompdf))
+ 3 VENDORPATH\dompdf\dompdf\src\Dompdf.php(731): Dompdf\Frame\Factory::decorate_frame(Object(Dompdf\Frame), Object(Dompdf\Dompdf), Object(Dompdf\FrameDecorator\Page))
+ 4 APPPATH\Controllers\Report.php(36): Dompdf\Dompdf->render()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Report->tampilPdf()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 06:05:47 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+【Previous Exception】
+TypeError
+Dompdf\Image\Cache::resolve_url(): Argument #5 ($dompdf) must be of type Dompdf\Dompdf, Dompdf\Options given, called in C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\FrameDecorator\Image.php on line 58
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\FrameDecorator\Image.php(58): Dompdf\Image\Cache::resolve_url('C:\\Users\\lenovo...', '', '', '', Object(Dompdf\Options))
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Frame\Factory.php(198): Dompdf\FrameDecorator\Image->__construct(Object(Dompdf\Frame), Object(Dompdf\Dompdf))
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\vendor\dompdf\dompdf\src\Dompdf.php(731): Dompdf\Frame\Factory::decorate_frame(Object(Dompdf\Frame), Object(Dompdf\Dompdf), Object(Dompdf\FrameDecorator\Page))
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Report.php(36): Dompdf\Dompdf->render()
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Report->tampilPdf()
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#9 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-03-15 06:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 06:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-15 06:39:57 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-15 06:39:57 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-15 06:39:57 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-15 06:39:57 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-15 06:56:39 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'jquery.min.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-15 06:56:39 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'jquery.min.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-15 06:56:39 --> mysqli_sql_exception: Unknown column 'js' in 'where clause' in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\MySQLi\Connection.php(295): mysqli->query('select * from m...', 0)
+#1 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\Users\lenovo\Downloads\codeigniter4 - Copy\app\Controllers\Data.php(43): App\Models\MData->getSelectData('js')
+#5 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(934): App\Controllers\Data->editData('js', 'bootstrap.js')
+#6 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Downloads\codeigniter4 - Copy\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2023-03-15 06:56:39 --> Unknown column 'js' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MData.php(21): CodeIgniter\Database\BaseConnection->query('select * from mahasiswa where nim = js')
+ 2 APPPATH\Controllers\Data.php(43): App\Models\MData->getSelectData('FCPATH\\js')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->editData('FCPATH\\js', 'bootstrap.js')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-15 06:58:51 --> Too few arguments to function App\Controllers\Data::homeData(), 0 passed in C:\Users\lenovo\Downloads\codeigniter4 - Copy\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Data.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Data->homeData()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-15 07:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-15 07:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
